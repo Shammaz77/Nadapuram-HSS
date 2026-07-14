@@ -101,7 +101,7 @@ const Acadamics = () => {
 								</div>
 							</div>
 							<div className="col-lg-4 col-md-4 mb-4">
-								<div className="admission-step-card">
+								<div className="admission-step-card">  
 									<div className="step-number">2</div>
 									<h5>Document Verification</h5>
 									<p>Submit required documents for verification. Our team will guide you through each step.</p>

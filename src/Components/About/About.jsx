@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import enq from "../../Assets/site1.jpg"
+import enq from "../../Assets/site3.jpg"
 import enqTwo from "../../Assets/hero1.jpg"
 
 const About = () => {

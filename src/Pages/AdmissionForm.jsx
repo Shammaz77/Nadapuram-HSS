@@ -150,7 +150,7 @@ const AdmissionForm = () => {
 				if (updatedFormFields.length > 0) {
 					setFormFields(updatedFormFields)
 				}
-
+				
 				const standardsResponse = await fetch("https://api.sirajulhuda.com/api/v1/erp/school/standards/list/27")
 				const standardsResult = await standardsResponse.json()
 				if (Array.isArray(standardsResult?.data) && standardsResult.data.length > 0) {
