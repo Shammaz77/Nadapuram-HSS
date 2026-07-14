@@ -11,10 +11,11 @@ import Blog from "../Components/Blog/Blog"
 import Footer from "../Components/Outlets/Footer"
 import Nav from "../Components/Outlets/Nav"
 import slide1 from "../Assets/hero1.jpg"
-import slide2 from "../Assets/hero2.jpg"
-import slide3 from "../Assets/hero3.png"
+import slide2 from "../Assets/DSC07059.jpg"
+import slide3 from "../Assets/site3.jpg"
+import slide4 from "../Assets/DSC07209.jpg"
 
-const heroSlides = [slide1, slide2, slide3]
+const heroSlides = [slide1, slide2, slide3, slide4]
 
 const faqs = [
 	{

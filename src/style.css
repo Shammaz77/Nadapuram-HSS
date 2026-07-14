@@ -1941,11 +1941,6 @@ ul{
 	width: 140px;
 	height: auto;
 	display: block;
-	filter: brightness(0) invert(1);
-	transition: filter 0.35s ease;
-}
-.main-nav.nav-solid .nav-logo {
-	filter: none;
 }
 .nav-center-links {
 	display: flex;
@@ -1955,7 +1950,7 @@ ul{
 .nav-link-item {
 	font-size: 12.5px;
 	font-weight: 500;
-	color: rgba(255,255,255,0.92);
+	color: #1c1c1c;
 	text-decoration: none;
 	padding: 6px 15px;
 	border-radius: 8px;
@@ -1976,19 +1971,10 @@ ul{
 	border-radius: 2px;
 }
 .nav-link-item:hover {
-	color: #fff;
+	color: #5B62B8;
 }
 .nav-link-item:hover::after {
 	transform: scaleX(1);
-}
-.main-nav.nav-solid .nav-link-item {
-	color: #1c1c1c;
-}
-.main-nav.nav-solid .nav-link-item:hover {
-	color: #5B62B8;
-}
-.main-nav.nav-solid .nav-link-item::after {
-	background-color: #5B62B8;
 }
 .nav-actions {
 	flex-shrink: 0;
