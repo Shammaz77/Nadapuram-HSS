@@ -1,5 +1,5 @@
 import React from "react"
-import logo from "../../Assets/school-logo.png"
+import logo from "../../Assets/darul-huda-logo.png"
 import { Link } from "react-router-dom"
 import { motion } from "framer-motion"
 

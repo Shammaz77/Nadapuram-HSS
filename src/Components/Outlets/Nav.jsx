@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { Link } from "react-router-dom"
-import logo from "../../Assets/school-logo.png"
+import logo from "../../Assets/darul-huda-logo.png"
 
 const Nav = () => {
 	const [isSidebarOpen, setIsSidebarOpen] = useState(false)
