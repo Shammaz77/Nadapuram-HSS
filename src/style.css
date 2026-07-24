@@ -3291,6 +3291,169 @@ ul{
 	margin: 0;
 }
 
+/* ── Managing Director's Message (top of About) ── */
+.md-message-section {
+	padding: 84px 0;
+	background: linear-gradient(180deg, #f6f7fc 0%, #ffffff 100%);
+	border-bottom: 1px solid #eef0f7;
+}
+
+.md-message-grid {
+	display: grid;
+	grid-template-columns: 300px 1fr;
+	gap: 56px;
+	align-items: start;
+}
+
+.md-message-profile {
+	position: sticky;
+	top: 100px;
+	background: #fff;
+	border: 1px solid #eceef6;
+	border-radius: 20px;
+	padding: 36px 28px;
+	text-align: center;
+	box-shadow: 0 24px 60px -34px rgba(27, 47, 110, 0.35);
+}
+
+.md-message-avatar {
+	width: 96px;
+	height: 96px;
+	margin: 0 auto 20px;
+	border-radius: 50%;
+	display: grid;
+	place-items: center;
+	background: linear-gradient(135deg, #5B62B8 0%, #1b2f6e 100%);
+	color: #fff;
+	font-size: 30px;
+	font-weight: 800;
+	letter-spacing: 1px;
+	box-shadow: 0 14px 30px -12px rgba(91, 98, 184, 0.7);
+}
+
+.md-message-name {
+	font-size: 20px;
+	font-weight: 800;
+	color: #1b2f6e;
+	margin: 0 0 4px 0;
+}
+
+.md-message-title {
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #5B62B8;
+	margin: 0 0 20px 0;
+}
+
+.md-message-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	font-size: 12.5px;
+	font-weight: 600;
+	color: #5a6a6a;
+	background: #f4f5fb;
+	border: 1px solid #eceef6;
+	padding: 8px 16px;
+	border-radius: 999px;
+}
+
+.md-message-badge i {
+	color: #5B62B8;
+	font-size: 15px;
+}
+
+.md-message-body {
+	position: relative;
+}
+
+.md-message-eyebrow {
+	display: block;
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #5B62B8;
+	margin-bottom: 8px;
+}
+
+.md-message-quote {
+	display: block;
+	font-size: 52px;
+	line-height: 1;
+	color: #d7dbf0;
+	margin-bottom: 4px;
+}
+
+.md-message-lead {
+	font-size: 18px;
+	line-height: 1.85;
+	color: #1a2050;
+	font-weight: 500;
+	margin: 0 0 20px 0;
+}
+
+.md-message-text {
+	font-size: 15px;
+	line-height: 1.9;
+	color: #5a6a6a;
+	margin: 0 0 18px 0;
+}
+
+.md-message-signature {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+	margin-top: 28px;
+	padding-top: 24px;
+	border-top: 1px solid #eceef6;
+}
+
+.md-message-regards {
+	font-size: 14px;
+	color: #5a6a6a;
+	margin-bottom: 6px;
+}
+
+.md-message-sign-name {
+	font-size: 19px;
+	font-weight: 800;
+	color: #1b2f6e;
+}
+
+.md-message-sign-role {
+	font-size: 13px;
+	color: #888;
+	font-weight: 500;
+}
+
+@media (max-width: 900px) {
+	.md-message-grid {
+		grid-template-columns: 1fr;
+		gap: 32px;
+	}
+	.md-message-profile {
+		position: static;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media (max-width: 480px) {
+	.md-message-section {
+		padding: 56px 0;
+	}
+	.md-message-lead {
+		font-size: 16px;
+	}
+	.md-message-text {
+		font-size: 14px;
+	}
+}
+
 @media (max-width: 900px) {
 	.md-minimal-inner {
 		grid-template-columns: 1fr;

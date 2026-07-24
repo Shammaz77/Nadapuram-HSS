@@ -76,6 +76,60 @@ const AboutPage = () => {
 				</div>
 			</section>
 
+			<section className="md-message-section">
+				<div className="container-main">
+					<div className="md-message-grid">
+						<motion.aside
+							className="md-message-profile"
+							variants={fadeUp}
+							initial="hidden"
+							whileInView="visible"
+							viewport={{ once: true }}
+							transition={{ duration: 0.7 }}
+						>
+							<div className="md-message-avatar">
+								<span>MP</span>
+							</div>
+							<h3 className="md-message-name montserrat">Muhammad Perode</h3>
+							<p className="md-message-title">Managing Director</p>
+							<div className="md-message-badge">
+								<i className="ri-medal-line"></i>
+								Darul Huda EMHSS
+							</div>
+						</motion.aside>
+
+						<motion.div
+							className="md-message-body"
+							variants={fadeUp}
+							initial="hidden"
+							whileInView="visible"
+							viewport={{ once: true }}
+							transition={{ duration: 0.7, delay: 0.12 }}
+						>
+							<span className="md-message-eyebrow">Managing Director's Message</span>
+							<i className="ri-double-quotes-l md-message-quote"></i>
+							<p className="md-message-lead">
+								Education is more than academic achievement—it is about nurturing character, values, leadership, and a lifelong passion for learning. Our vision is to create a learning environment where every student is inspired to reach their highest potential while developing integrity, compassion, and a strong sense of responsibility.
+							</p>
+							<p className="md-message-text">
+								At our school, we are committed to providing high-quality education through dedicated educators, innovative teaching methods, and a supportive atmosphere that encourages creativity, critical thinking, and excellence. We believe that every student possesses unique talents, and our role is to help them discover, develop, and confidently pursue their aspirations.
+							</p>
+							<p className="md-message-text">
+								We also recognize the importance of strong collaboration between the school, parents, and the wider community. Together, we can provide the guidance and support our students need to become confident, responsible, and successful individuals who contribute positively to society.
+							</p>
+							<p className="md-message-text">
+								Thank you for placing your trust in us. We look forward to partnering with you in shaping a bright and meaningful future for every student.
+							</p>
+							<div className="md-message-signature">
+								<span className="md-message-regards">With warm regards,</span>
+								<strong className="md-message-sign-name montserrat">Muhammad Perode</strong>
+								<span className="md-message-sign-role">Managing Director</span>
+							</div>
+						</motion.div>
+					</div>
+				</div>
+			</section>
+
 			<main className="about-redesign">
 				<section className="about-story-section">
 					<div className="container-main">

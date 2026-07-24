@@ -15,7 +15,7 @@ const Footer = () => {
 								A reputed unaided Higher Secondary School in Nadapuram, Vadakara, recognized by the Government of Kerala — offering Science &amp; Commerce streams with integrated entrance coaching.
 							</p>
 							<div className="social-media-icons">
-								<a href="#"><i className="ri-instagram-line"></i></a>
+								<a href="https://www.instagram.com/darulhudahss?igsh=MXF4d3c3MG54ZmI2Zg==" target="_blank" rel="noopener noreferrer"><i className="ri-instagram-line"></i></a>
 								<a href="#"><i className="ri-whatsapp-line"></i></a>
 								<a href="#"><i className="ri-facebook-circle-line"></i></a>
 								<a href="#"><i className="ri-twitter-x-line"></i></a>
@@ -53,8 +53,8 @@ const Footer = () => {
 							<h4 className="footer-heading-sub-main">Contact Us</h4>
 							<ul>
 								<li><a href="#"><i className="ri-map-pin-line"></i> Nadapuram, Vadakara, Kozhikode, Kerala</a></li>
-								<li><a href="#"><i className="ri-phone-line"></i> +91 00000 00000</a></li>
-								<li><a href="#"><i className="ri-mail-line"></i> darulhudaemhss@gmail.com</a></li>
+								<li><a href="tel:+919496288786"><i className="ri-phone-line"></i> +91 94962 88786</a></li>
+								<li><a href="mailto:dhemhss@gmail.com"><i className="ri-mail-line"></i> dhemhss@gmail.com</a></li>
 								<li><span style={{ fontSize: '14px', color: '#888' }}><i className="ri-time-line"></i> Mon - Sat: 8 AM - 5 PM</span></li>
 							</ul>
 						</div>

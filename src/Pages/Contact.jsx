@@ -33,7 +33,7 @@ const Contact = () => {
 									<i className="ri-phone-line"></i>
 								</div>
 								<h5>Phone Number</h5>
-								<p>+91 00000 00000</p>
+								<p>+91 94962 88786</p>
 							</div>
 						</div>
 						<div className="col-lg-3 col-md-6 mb-4">
@@ -42,7 +42,7 @@ const Contact = () => {
 									<i className="ri-mail-send-line"></i>
 								</div>
 								<h5>Email Address</h5>
-								<p>darulhudaemhss@gmail.com</p>
+								<p>dhemhss@gmail.com</p>
 							</div>
 						</div>
 						<div className="col-lg-3 col-md-6 mb-4">
